@@ -1,0 +1,30 @@
+
+.seat-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+.seat {
+  border: 2px solid green;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+}
+
+.available {
+  background-color: lightblue;
+}
+
+.booked {
+  background-color: wheat;
+  cursor: not-allowed;
+}
+
+.hovered {
+  background-color: green;
+}
